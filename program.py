@@ -40,4 +40,3 @@ elif plec==str("K"):
     print("Wybrano płeć: K")
 else:
     exit("Proszę podać poprawną formę: M / K")
-
