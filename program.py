@@ -4,7 +4,17 @@ from curses.ascii import isdigit
 from sre_compile import isstring
 from traceback import print_tb
 
-
+region = input("Podaj Region EUR / USA: ")
+#sprawdzenie regionu:
+if region.isdigit() == True:
+    exit("Proszę podać region: EUR / USA ")
+region=str(region)
+if region==str("EUR"):
+    print("Wybrano region: EUR")
+elif region==str("USA"):
+    print("Wybrano region: USA")
+else:
+    exit("Proszę podać poprawny region EUR / USA")
 wiek = input("Podaj wiek uzytkownika: ")
 #sprawdzenie czy wiek jest liczba całkowitą
 if wiek.isdigit() == False:
@@ -30,4 +40,3 @@ elif plec==str("K"):
     print("Wybrano płeć: K")
 else:
     exit("Proszę podać poprawną formę: M / K")
-
