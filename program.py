@@ -30,4 +30,8 @@ elif plec==str("K"):
     print("Wybrano płeć: K")
 else:
     exit("Proszę podać poprawną formę: M / K")
+    
+
+if plec==str("K") and wiek>=30:
+    print("Promocja! Odbierz gratis w postaci Aperol Spritz do swojego zamówienia!")
 
