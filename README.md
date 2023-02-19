@@ -1,22 +1,8 @@
-v.1.0
+v.2.0
 README:
 # Aplikacja dla osób dorosłych - zakup alkoholu w Pythonie
 
 ## Funkcjonalności aplikacji w wersji:
-
-v.1.0
-- [x] obsługa osób dorosłych
-- [x] obsługa wymagań specjalnych dla osób +40
-
-
-=== program.py ===
-
-TC Wieku
-TC1: 5
-TC2: 20
-TC3: 41
-TC4: abcd
-TC5: 1.6
 
 v.2.0
 - [x] obsługa osób dorosłych włącznie z wyborem regionu EU/USA
@@ -70,4 +56,18 @@ TC1: M
 TC2: K
 TC3: 99
 TC4: y
+
+v.1.0
+- [x] obsługa osób dorosłych
+- [x] obsługa wymagań specjalnych dla osób +40
+
+
+=== program.py ===
+
+TC Wieku
+TC1: 5
+TC2: 20
+TC3: 41
+TC4: abcd
+TC5: 1.6
 
