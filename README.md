@@ -5,7 +5,7 @@ README:
 ## Funkcjonalności aplikacji w wersji:
 
 v.2.0
-- [x] obsługa osób dorosłych włącznie z wyborem regionu EU/USA
+- [x] wybór regionu EU/USA
 - [x] promocja dla kobiet 30+ Aperol
 - [x] zakres wieku <120
 
