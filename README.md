@@ -26,6 +26,7 @@ v.2.0
 
 
 === program.py ===
+
 TC Wieku:
 Dla EU:
 TC1: 18
